@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/Ganesh2409/Course-Recommendation-System.git
-    cd courserecommendation
+    cd Course-Recommendation-System
     ```
 
 2. **Create and activate a virtual environment (optional but recommended):**
