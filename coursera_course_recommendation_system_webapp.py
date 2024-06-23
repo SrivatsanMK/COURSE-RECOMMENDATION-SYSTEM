@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 print('Dependencies Imported')
 
-data = pd.read_csv(r"C:\Users\ganes\Desktop\Coursera Course Recommandation\Data\Coursera.csv")
+data = pd.read_csv(r"C:\Users\ganes\Desktop\Course-Recommendation-System\Data\Coursera.csv")
 data.head(5)
 
 """# Basic Data Analysis"""
@@ -128,6 +128,6 @@ recommend('Business Strategy Business Model Canvas Analysis with Miro')
 
 import pickle
 
-pickle.dump(similarity,open('Data/similarity.pkl','wb'))
-pickle.dump(new_df.to_dict(),open('Data/course_list.pkl','wb')) #contains the dataframe in dict
-pickle.dump(new_df,open('Data/courses.pkl','wb'))
+pickle.dump(similarity,open('models/similarity.pkl','wb'))
+pickle.dump(new_df.to_dict(),open('models/course_list.pkl','wb')) #contains the dataframe in dict
+pickle.dump(new_df,open('models/courses.pkl','wb'))

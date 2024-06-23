@@ -46,7 +46,7 @@ To run the project locally, follow these steps:
 
 2. **Run the Streamlit application:**
     ```bash
-    streamlit run main.py
+    python -m streamlit run main.py
     ```
 
 3. **Navigate to the provided local URL to use the web app.**
