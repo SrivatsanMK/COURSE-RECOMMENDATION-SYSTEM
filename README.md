@@ -14,7 +14,7 @@ The Course Recommendation System is a machine learning-based web application des
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [Contact](#contact)
+- [Contact](#contact) 
 
 ## Installation
 To run the project locally, follow these steps:
