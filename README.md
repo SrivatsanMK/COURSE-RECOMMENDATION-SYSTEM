@@ -11,8 +11,8 @@ The Course Recommendation System is a machine learning-based web application des
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact) 
 
