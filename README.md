@@ -38,18 +38,7 @@ To run the project locally, follow these steps:
 
 4. **Download the Coursera dataset and place it in the project directory.**
 
-## Usage
-1. **Run the preprocessing and model training script:**
-    ```bash
-    python coursera_course_recommendation_system_webapp.py
-    ```
 
-2. **Run the Streamlit application:**
-    ```bash
-    python -m streamlit run main.py
-    ```
-
-3. **Navigate to the provided local URL to use the web app.**
 
 ## Project Structure
 ```
@@ -64,7 +53,18 @@ courserecommendation/
 ├── requirements.txt                                    # Python dependencies
 └── README.md                                           # Project README file
 ```
+## Usage
+1. **Run the preprocessing and model training script:**
+    ```bash
+    python coursera_course_recommendation_system_webapp.py
+    ```
 
+2. **Run the Streamlit application:**
+    ```bash
+    python -m streamlit run main.py
+    ```
+
+3. **Navigate to the provided local URL to use the web app.**
 ## Contributing
 We welcome contributions to enhance the Course Recommendation System. 
 
