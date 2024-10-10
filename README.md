@@ -1,83 +1,103 @@
-# Course Recommendation System
+# Course Recommendation System 🚀
 
-## Overview
-The Course Recommendation System is a machine learning-based web application designed to recommend similar courses from a dataset of over 3,000 courses from Coursera. The application preprocesses course data, applies text vectorization and cosine similarity measures, and provides course recommendations based on user input.
+A Dockerized machine learning-based web application that recommends similar courses from a dataset of over 3,000 courses on Coursera. The app uses text vectorization and cosine similarity to provide personalized course recommendations based on user input.
 
-## Features
+## Features 🔥
 - Data preprocessing and cleaning
-- Vectorization of course descriptions and skills
-- Cosine similarity-based recommendation system
-- Interactive web interface using Streamlit
+- Vectorization of course descriptions and skills using `sklearn`
+- Cosine similarity-based course recommendation engine
+- Interactive web interface built with `Streamlit`
+- Fully Dockerized for easy deployment
 
-## Table of Contents
+## Table of Contents 📑
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Docker](#docker)
 - [Contributing](#contributing)
-- [Contact](#contact) 
+- [Contact](#contact)
 
-## Installation
+## Installation 🛠️
+
 To run the project locally, follow these steps:
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/Ganesh2409/Course-Recommendation-System.git
-    cd Course-Recommendation-System
-    ```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ganesh2409/Course-Recommendation-System.git
+   cd Course-Recommendation-System
+   ```
 
-2. **Create and activate a virtual environment (optional but recommended):**
-    ```bash
-    python -m venv env
-    source env/bin/activate  # On Mac, use `env\Scripts\activate` # on windows 
-    ```
+2. Create and activate a virtual environment (optional but recommended):
+   ```bash
+   python -m venv env
+   source env/bin/activate  # Mac/Linux
+   .\env\Scripts\activate   # Windows
+   ```
 
-3. **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+## Project Structure 🗂️
 
-4. **Download the Coursera dataset and place it in the project directory.**
-
-
-
-## Project Structure
 ```
-courserecommendation/
+Course-Recommendation-System/
 ├── Data/
-│   └── Coursera.csv                                    # Coursera dataset (add this file)
+│   └── Coursera.csv                                  # Coursera dataset
 ├── models/
-│   ├── course_list.pkl                                 # Precomputed similarity matrix
-│   └── courses.pkl                                     # Processed course list
-├── main.py                                             # Streamlit app script
-├── coursera_course_recommendation_system_webapp.py     # Data preprocessing and model training script 
-├── requirements.txt                                    # Python dependencies
-└── README.md                                           # Project README file
+│   ├── course_list.pkl                               # Precomputed similarity matrix
+│   └── courses.pkl                                   # Processed course list
+├── main.py                                           # Streamlit app script
+├── CourseRecommendationSystem.py                     # Data preprocessing and model training script 
+├── requirements.txt                                  # Python dependencies
+├── Dockerfile                                        # Docker configuration
+└── README.md                                         # Project README file
 ```
-## Usage
-1. **Run the preprocessing and model training script:**
-    ```bash
-    python coursera_course_recommendation_system_webapp.py
-    ```
 
-2. **Run the Streamlit application:**
-    ```bash
-    python -m streamlit run main.py
-    ```
+## Usage ⚙️
 
-3. **Navigate to the provided local URL to use the web app.**
-## Contributing
-We welcome contributions to enhance the Course Recommendation System. 
+1. **Run the preprocessing and model training script**:
+   ```bash
+   python CourseRecommendationSystem.py
+   ```
 
-** Steps To contribute ** 
+2. **Run the Streamlit application**:
+   ```bash
+   streamlit run main.py
+   ```
 
-* Fork the repository.
-* Create a new branch (`git checkout -b feature-branch`).
-* Commit your changes (`git commit -am 'Add new feature'`).
-* Push to the branch (`git push origin feature-branch`).
-* Create a new Pull Request.
+3. **Navigate to the local URL (http://localhost:8501)** to use the web app.
 
+## Docker 🐳
 
-## Contact
-For any questions or feedback, please contact:
-- **Name** - [Ganesh Chowdhary P]()
-- **Email** - [pinnamaneniganesh24@gmail.com ](mailto:your.pinnamaneniganesh24@gmail.com)
+To run the application using Docker:
+
+1. **Build the Docker image**:
+   ```bash
+   docker build -t course-recommendation-system .
+   ```
+
+2. **Run the Docker container**:
+   ```bash
+   docker run -p 8501:8501 course-recommendation-system
+   ```
+
+3. **Access the web app** at [http://localhost:8501](http://localhost:8501).
+
+## Contributing 🤝
+
+We welcome contributions to improve the Course Recommendation System. Here's how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a Pull Request.
+
+## Contact 📧
+
+For any questions or feedback, feel free to reach out:
+
+- **Ganesh Chowdhary P** – pinnamaneniganesh24@gmail.com
+- GitHub: [Ganesh Chowdhary P](https://github.com/ganesh2409)
+```
