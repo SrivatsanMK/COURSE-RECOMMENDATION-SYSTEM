@@ -10,7 +10,7 @@ A Dockerized machine learning-based web application that recommends similar cour
 - Fully Dockerized for easy deployment
 
 ## Table of Contents 📑
-- [Installation](#installation)
+- [Installation](#installation )
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Docker](#docker)
