@@ -1,21 +1,13 @@
-# Course Recommendation System 🚀
+# Course Recommendation System 
 
 A Dockerized machine learning-based web application that recommends similar courses from a dataset of over 3,000 courses on Coursera. The app uses text vectorization and cosine similarity to provide personalized course recommendations based on user input.
 
-## Features 🔥
-- Data preprocessing and cleaning
-- Vectorization of course descriptions and skills using `sklearn`
-- Cosine similarity-based course recommendation engine
-- Interactive web interface built with `Streamlit`
-- Fully Dockerized for easy deployment
-
-## Table of Contents 📑
-- [Installation](#installation )
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Docker](#docker)
-- [Contributing](#contributing)
-- [Contact](#contact)
+## Features 
+- Data preprocessing and cleaning.
+- Vectorization of course descriptions and skills using `sklearn`.
+- Cosine similarity-based course recommendation engine.
+- Interactive web interface built with `Streamlit`.
+- Fully Dockerized for easy deployment.
 
 ## Installation 🛠️
 
@@ -23,7 +15,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ganesh2409/Course-Recommendation-System.git
+   git clone 
    cd Course-Recommendation-System
    ```
 
@@ -83,25 +75,3 @@ To directly use the project from Docker Hub
    ```
 
 3. **Access the web app** at [http://localhost:8501](http://localhost:8501).
-
-
-## Contributing 🤝
-
-We welcome contributions to improve the Course Recommendation System. Here's how you can contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a Pull Request.
-
-## Contact 📧
-
-For any questions or feedback, feel free to reach out:
-
-- **Ganesh Chowdhary P** – pinnamaneniganesh24@gmail.com
-- GitHub: [Ganesh Chowdhary P](https://github.com/ganesh2409)
-```
-Made with ❤️ ( ͡• ͜ʖ ͡• ) Follow for more  ... :) 
-``` 
-
