@@ -9,13 +9,13 @@ A Dockerized machine learning-based web application that recommends similar cour
 - Interactive web interface built with `Streamlit`.
 - Fully Dockerized for easy deployment.
 
-## Installation 🛠️
+## Installation 
 
 To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/SrivatsanMK/COURSE-RECOMMENDATION-SYSTEM.git
    cd Course-Recommendation-System
    ```
 
